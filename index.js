@@ -8,7 +8,7 @@ function iterativeLog(array) {
 }
 
 function iterate(callback) {
- v
+ 
   callback(array)
 
   return array
