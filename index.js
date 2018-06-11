@@ -8,8 +8,9 @@ function iterativeLog(array) {
 }
 
 function iterate(callback) {
- 
-  callback(array)
+ var array = [1,2,3];
+
+  array.forEach(callback(element, index))
 
   return array
 }
